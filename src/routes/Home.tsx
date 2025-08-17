@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
-import profilePic from "../assets/Eslam.jpeg";
+import profilePic from "../assets/WhatsApp Image 2025-08-17 at 12.32.01 PM.jpeg";
 
 export default function Home() {
   return (
     <section className="hero">
-
       <div className="hero-left">
         <div className="hero-text">
           <h1>Hi, I’m Eslam — Frontend Developer</h1>
           <p>
-            I have built projects using React, Next.js, Prisma, and Postgres. I’m
-            passionate about clean UI and mobile-first design.
+            I have built projects using React, Next.js, Prisma, and Postgres.
+            I’m passionate about clean UI and mobile-first design.
           </p>
         </div>
 
@@ -22,7 +21,7 @@ export default function Home() {
             Contact Me
           </Link>
           <a
-            href="/Eslam Ashraf Shafiek CV.pdf"
+            href="/Eslam Ashraf CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn cv"
@@ -32,7 +31,7 @@ export default function Home() {
         </div>
 
         <div className="card">
-          <h3 className="latest-news-title">Latest News</h3>
+          <h3 className="latest-news-title">Current Projects</h3>
           <ul className="latest-news-list">
             <li>Currently working on an Admin Dashboard for a Media Center.</li>
             <li>Migrated a CRUD project to Next.js API Routes.</li>
@@ -41,7 +40,9 @@ export default function Home() {
       </div>
 
       <div className="hero-right">
-        <img src={profilePic} alt="Eslam" />
+        <div className="profile-container">
+          <img src={profilePic} alt="Eslam" className="profile-img" />
+        </div>
       </div>
     </section>
   );

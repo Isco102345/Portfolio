@@ -15,9 +15,9 @@ export const projects: Project[] = [
     id: 'p1',
     title: 'Real Estate Dashboard',
     description: 'DashBoard CRUD with Auth and Media Center.',
-    tags: ['Next.js', 'Prisma', 'PostgreSQL', 'CSS'],
+    tags: ['Next.js', 'Prisma', 'PostgreSQL', 'CSS', 'Tailwnid'],
     github: 'https://github.com/bazokhan/realestate',
-    url: 'https://realestate.trugraph.io/dashboard'
+    url: 'https://realestate.trugraph.io/dashboard',
   },
   {
     id: 'p2',
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description: 'Gaming Website',
     github: 'https://github.com/Isco102345/Assignment---5',
     url: 'https://isco102345.github.io/Assignment---5/',
-    tags: ['Javascribt', 'CSS'],
+    tags: ['JavaScribt', 'CSS','Bootstrap'],
   },
   {
     id: 'p3',
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     description: 'Bookmark Website',
     github: 'https://github.com/Isco102345/Assignment-2',
     url: 'https://isco102345.github.io/Assignment-2/',
-    tags: ['Javascribt', 'CSS'],
+    tags: ['JavaScribt', 'CSS'],
   },
   {
     id: 'p4',
@@ -41,7 +41,7 @@ export const projects: Project[] = [
     description: 'Smart Login Website',
     github: 'https://github.com/Isco102345/Assignment-3',
     url: 'https://isco102345.github.io/Assignment-3/',
-    tags: ['Javascribt', 'CSS'],
+    tags: ['JavaScribt', 'CSS' ,'Bootstrap'],
   },
   {
     id: 'p5',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     description: 'Fresh Cart e-commerce website',
     github: 'https://github.com/Isco102345/Final-Project',
     url: 'https://github.com/Isco102345/Final-Project',
-    tags: ['react', 'CSS'],
+    tags: ['React', 'CSS'],
   },
   {
     id: 'p6',
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     description: 'J-query website',
     github: 'https://github.com/Isco102345/JQUERY2',
     url: 'https://isco102345.github.io/JQUERY2/',
-    tags: ['Javascribt', 'CSS' , 'HTML'],
+    tags: ['JavaScribt', 'CSS' , 'HTML'],
   },
   {
     id: 'p7',
@@ -65,7 +65,39 @@ export const projects: Project[] = [
     description: 'Weather website',
     github: 'https://github.com/Isco102345/Assignment---4',
     url: 'https://isco102345.github.io/Assignment---4/',
-    tags: ['Javascribt', 'CSS' , 'HTML'],
+    tags: ['JavaScribt', 'CSS' , 'HTML'],
+  },
+  {
+    id: 'p8',
+    title: 'Quote Website Promo',
+    description: 'Qupte website',
+    github: 'https://github.com/Isco102345/Assignment',
+    url: 'https://isco102345.github.io/Assignment/',
+    tags: ['JavaScribt', 'CSS' , 'HTML'],
+  },
+  {
+    id: 'p9',
+    title: 'Recibe Website Promo',
+    description: 'Recibe website',
+    github: 'https://github.com/Isco102345/Assignment-10',
+    url: 'https://isco102345.github.io/Assignment-10/',
+    tags: ['JavaScribt', 'CSS' , 'HTML'],
+  },
+  {
+    id: 'p10',
+    title: 'Search Website Promo',
+    description: 'Search website',
+    github: 'https://github.com/Isco102345/Assignment-7',
+    url: 'https://github.com/Isco102345/Assignment-10',
+    tags: ['JavaScribt', 'CSS' , 'HTML'],
+  },
+  {
+    id: 'p11',
+    title: 'DevFolio Website Promo',
+    description: 'Devfolio website',
+    github: 'https://github.com/Isco102345/project',
+    url: 'https://isco102345.github.io/project',
+    tags: ['CSS' , 'HTML'],
   },
  
 ]
