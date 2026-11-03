@@ -21,7 +21,7 @@ export default function Home() {
             Contact Me
           </Link>
           <a
-            href="/Eslam Ashraf CV.pdf"
+            href="/cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn cv"
