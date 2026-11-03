@@ -33,8 +33,16 @@ export default function Home() {
         <div className="card">
           <h3 className="latest-news-title">Current Projects</h3>
           <ul className="latest-news-list">
-            <li>Currently working on an Admin Dashboard for a Media Center.</li>
-            <li>Migrated a CRUD project to Next.js API Routes.</li>
+            <li>
+              Developed a full-stack E-commerce website using Laravel 12 and
+              MySQL.
+            </li>
+            <li>Built an Admin Dashboard for product and order management.</li>
+            <li>
+              Implemented user authentication, shopping cart, and wishlist
+              functionality.
+            </li>
+            <li>Developed CRUD operations for managing products and orders.</li>
           </ul>
         </div>
       </div>
